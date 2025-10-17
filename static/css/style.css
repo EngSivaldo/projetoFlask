@@ -1,0 +1,47 @@
+/* static/css/style.css */
+body {
+  background: linear-gradient(135deg, #b3a4a7, #fc9482);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+}
+
+.btn-light {
+  margin-top: 15px;
+}
+
+.btn-sair {
+  display: inline-block;
+  background-color: #fd0000; /* vermelho elegante */
+  color: #fff; /* texto branco */
+  padding: 8px 16px; /* espaçamento interno */
+  border-radius: 6px; /* cantos arredondados */
+  text-decoration: none; /* remove o sublinhado */
+  font-weight: 500;
+  transition: background 0.3s ease;
+}
+
+.btn-sair:hover {
+  background-color: #aa0c0c; /* vermelho mais escuro no hover */
+}
